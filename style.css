@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    background: linear-gradient(to left bottom, rgb(0, 221, 255), lightblue);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: monospace;
+    color: black;
+  }
+  .container {
+    background-color: rgb(241, 229, 229);
+    padding: 20px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    width: 85%;
+    max-width: 450px;
+    min-width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .heading {
+    font-size: 32px;
+  } 
+  .temp-container {
+    width: 100%;
+    padding: 15px;
+    font-weight: bold;
+    font-size: 18px;
+  }
+  .input {
+    width: 220px;
+    font-family: monospace;
+    padding: 5px;
+    float: right;
+    outline: none;
+    background-color: aliceblue;
+    border-color: rgb(255, 255, 255);
+    font-size: 18px;
+  }
+  .input::placeholder{
+      color:rgb(0, 0, 0);
+  }
+  #cal{ 
+    margin-right: 25%;
+    border-radius: 25px;
+    padding: 5%;
+    background-color: black;
+    font-size: large;
+    color: white;
+  }
+  #cal:hover{
+    background-color: rgb(154, 53, 53);
+    padding: 10%;
+    cursor: pointer;
+  }
+  #cl:hover{
+    background-color: rgb(154, 53, 53);
+    padding: 10%;
+    cursor: pointer;
+  }
+  #cl{
+    border-radius: 25px;
+    padding: 8%;
+    background-color: black;
+    font-size: large;
+    color: white;
+  }
+  #but{
+    margin-top: 10%;
+    display: flex;
+    justify-content: space-around;
+
+  }
